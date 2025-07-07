@@ -7,10 +7,10 @@ import watchLater from "../assets/icons/watchLater.svg";
 const Sidebar = () => {
   return (
     <aside>
-      <ul class="space-y-2">
+      <ul className="space-y-2">
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
             href="#"
           >
             <img src={trending} width="24" height="24" alt="" />
@@ -19,7 +19,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={newRelease} width="24" height="24" alt="" />
@@ -28,7 +28,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={comingSoon} width="24" height="24" alt="" />
@@ -37,7 +37,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={favorite} width="24" height="24" alt="" />
@@ -46,7 +46,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={watchLater} width="24" height="24" alt="" />
