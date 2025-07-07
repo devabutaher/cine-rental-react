@@ -1,8 +1,20 @@
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+
 const App = () => {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <main>
+        <Navbar />
+        <div class="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
+          <Sidebar />
+          <Content />
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 };
 
